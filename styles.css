@@ -48,8 +48,8 @@ h3 {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 ul li {
@@ -57,13 +57,9 @@ ul li {
     line-height: 1.6;
 }
 
-ul li::before {
-    content: "•";
+ul li::marker {
     color: #4CAF50;
     font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
 }
 
 p {
